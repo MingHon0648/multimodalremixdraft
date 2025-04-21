@@ -1,0 +1,238 @@
+.header{
+    display: flex;
+    height: 100px;
+    width: 100%
+}
+
+.logo{
+    padding-top: 15px;
+    padding-left: 2%;
+    align-items: center;
+}
+
+.title{
+    font-size: large;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+#small_title h3{
+    padding-top: 15px;
+    padding-bottom: 0%;
+    margin: 0;
+}
+
+#large_title h1{
+    padding-top: 0px;
+    margin: 0
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+.home{
+    align-items: center;
+    position: absolute;
+    right: 180px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.credits{
+    position: absolute;
+    right: 50px;
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+.slider{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: auto;
+    transition: transform 0.5s ease-in-out;
+}
+.slide{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.arrow{
+    position: absolute;
+    color: black;
+    background-color: transparent;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    cursor: pointer
+}
+.left{
+    left: 10px
+}
+.right{
+    right: 10px
+}
+.dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.dot.active{
+    background-color: #717171;
+}
+.description_section{
+    height: 400px;
+    background-color:aquamarine;
+    margin-top: 20px;
+    margin-right: 140px;
+    display: flex;
+}
+.description_image img{
+    height: 300px;
+    width: auto;
+    margin:50px;
+    margin-left: 100px;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+}
+.description_text{
+    position: relative;
+
+    margin-top: 5px;
+    /* margin-left: 30px; */
+}
+.description_text h5{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.oval_button{
+    position: relative;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: medium;
+    cursor: pointer;
+}
+.description_section_opposite{
+    height: 400px;
+    background-color: gray;
+    margin-top: 20px;
+    margin-left: 140px;
+    display: flex;
+}
+.description_image_opposite img{
+    height: 300px;
+    width: auto;
+    margin-top: 50px;
+    position: absolute;
+    /* margin-left: 500px; */
+    right: 110px;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+}
+.description_text_opposite{
+    margin-top: 5px;
+    margin-left: 350px;
+    position: relative
+}
+.description_text_opposite h5{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+#chemical_en{
+    background-color:cadetblue;
+}
+#civil_en{
+    background-color: coral;
+}
+#computer_en{
+    background-color: beige;
+}
+.footer{
+    height: 400px;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 70px
+}
+.email{
+    margin: 30px;
+    padding-top: 50px;
+    font-size: large
+}
+.reference{
+    margin: 30px;
+    font-size: large
+}
+html{
+    scroll-behavior: smooth;
+}
+.engineering_title{
+    font-size: 30px;
+    text-align: center;
+}
+.engineering_image img{
+    height: 450px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.engineering_description{
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.engineering_description h3{
+    font-size: 30px;
+}
+.engineering_description p{
+    font-size: 20px;
+}
+.engineering_course{
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.engineering_course h3{
+    font-size: 30px
+}
+.engineering_course h4{
+    font-size: 25px
+}
+.engineering_course p{
+    font-size: 20px
+}
+.engineering_career{
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.engineering_career h3{
+    font-size: 30px;
+}
+.engineering_career li{
+    font-size: 20px;
+}

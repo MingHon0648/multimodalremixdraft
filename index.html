@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" type="image/jpg" href="logo.jpg">
+    <title>Engineering Majors</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo.jpg">
+            </a>
+        </div>
+        <div class="title">
+            <a href="index.html">
+                <div id="small_title">
+                    <h3>Various Kinds of</h3>
+                </div>
+                <div id="large_title">
+                    <h1>Engineering Majors</h1>
+                </div>
+            </a>
+        </div>
+        <div class="home">
+            <a href="index.html">
+                <h4>Home</h4>
+            </a>
+        </div>
+        <div class="credits">
+            <a href="#footer">
+                <h4>Credits</h4>
+            </a>
+        </div>
+    </div>
+    <div class="slider">
+        <button class="arrow left" onclick="moveSlide(-1)">&#8617;</button>
+        <div class="image">
+            <a href="aerospace_en.html">
+                <img src="plane1.png" class="slide">
+            </a>
+            <a href="mechanical_en.html">
+                <img src="gear.png" class="slide">
+            </a>
+            <a href="chemical_en.html">
+                <img src="oil_refining.png" class="slide">
+            </a>
+            <a href="civil_en.html">
+                <img src="building.png" class="slide">
+            </a>
+            <a href="computer_en.html">
+                <img src="code.jpg" class="slide">
+            </a>
+        </div>
+        <button class="arrow right" onclick="moveSlide(1)">&#8618;</button>
+    </div>
+
+    <div class="dots">
+        <span class="dot" onclick="moveSlideTo(0)"></span>
+        <span class="dot" onclick="moveSlideTo(1)"></span>
+        <span class="dot" onclick="moveSlideTo(2)"></span>
+        <span class="dot" onclick="moveSlideTo(3)"></span>
+        <span class="dot" onclick="moveSlideTo(4)"></span>
+    </div>
+
+    <div class="description_section" id="aerospace_en">
+        <div class="description_image">
+            <img src="plane1.png">
+        </div>
+        <div class="description_text">
+            <h5>Aerospace Engineering</h5>
+            <p>Aerospace engineering focus on designing, testing and developing aircraft.</p>
+            <p>Aerospace engineers are responsible to solve atmospheric and space flight</p>
+            <p>problems, which leads to the division into two branches of this major, which</p>
+            <p>are aeronautical engineering and astronautical engineering.</p>
+            <a href="aerospace_en.html">
+                <button class="oval_button">Learn More</button>
+            </a>
+        </div>
+    </div>
+    <div class="description_section_opposite" id="mechanical_en">
+        <div class="description_text_opposite">
+            <h5>Mechanical Engineering</h5>
+            <p>Mechanical engineering is a multidisciplinary engineering major.</p>
+            <p>Basically, mechanical engineering is to apply the principles of</p>
+            <p>motion, and energy to solve technical problems. In simple words,</p>
+            <p>mechanical engineers turns idea into the marketplace.</p>
+            <a href="mechanical_en.html">
+                <button class="oval_button">Learn More</button>
+            </a>
+        </div>
+        <div class="description_image_opposite">
+            <img src="gear.png">
+        </div>
+    </div>
+    <div class="description_section" id="chemical_en">
+        <div class="description_image">
+            <img src="oil_refining.png">
+        </div>
+        <div class="description_text">
+            <h5>Chemical Engineering</h5>
+            <p>Chemical engineers strive to create versatile and commodity chamicals,</p>
+            <p>high performance fuels, new construction materials, solid electronic</p>
+            <p>components, pharmaceuticals and others. In simple words, chemical engineers</p>
+            <p>design processes to convert, transform and transport material by beginning...</p>
+            <a href="chemical_en.html">
+                <button class="oval_button">Learn More</button>
+            </a>
+        </div>
+    </div>
+    <div class="description_section_opposite" id="civil_en">
+        <div class="description_text_opposite">
+            <h5>Civil Engineering</h5>
+            <p>Civil engineering studies the principles of motion and materials to</p>
+            <p>construct and design public and private facilities. Examples of</p>
+            <p>facilities include transportation systems like bridges and buildings,</p>
+            <p>water supply, waste management, pollution control, irrigation and...</p>
+            <a href="civil_en.html">
+                <button class="oval_button">Learn More</button>
+            </a>
+        </div>
+        <div class="description_image_opposite">
+            <img src="building.png">
+        </div>
+    </div>
+    <div class="description_section" id="computer_en">
+        <div class="description_image">
+            <img src="code.jpg">
+        </div>
+        <div class="description_text">
+            <h5>Computer Engineering</h5>
+            <p>Computer engineering focuses on the study of software systems, embedded systems,</p>
+            <p>information security, Internet networking, computer architecture and others. It</p>
+            <p>provides students the opportunity to learn electrical and computer fundamentals. It</p>
+            <p>sits in between the software of computer science and the hardware of electrical engineering.</p>
+            <a href="computer_en.html">
+                <button class="oval_button">Learn More</button>
+            </a>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        <div class="email">
+            <i class="fa fa-envelope"> minghon@iastate.edu</i>
+        </div>
+        <div class="reference">
+            <h3>References:</h3>
+            <p>https://catalog.iastate.edu/collegeofengineering/mechanicalengineering/# </p>
+            <p>https://www.aero.psu.edu/academics/undergraduate/what-is-aerospace-engineering.aspx </p>
+            <p>https://catalog.iastate.edu/collegeofengineering/chemicalengineering/</p>
+            <p>https://catalog.iastate.edu/collegeofengineering/computerengineering/</p>
+            <p>https://catalog.iastate.edu/collegeofengineering/civilengineering/</p>
+            <p>All pictures are generated by ChatGPT, except the logo picture and the code picture.</p>
+        </div>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll(".slide");
+        const totalSlides = slides.length;
+        const dots = document.querySelectorAll(".dot");
+        const imageContainer = document.querySelector(".image");
+    
+        function moveSlide(direction){
+            currentSlide += direction;
+    
+            if(currentSlide < 0) {
+                currentSlide = totalSlides -1;
+            }
+            else if(currentSlide >= totalSlides) {
+                currentSlide = 0;
+            }
+
+            slides.forEach(slide => {
+                slide.style.display = "none"
+            })
+            slides[currentSlide].style.display = "block";
+            updateSlider();
+        }
+        moveSlide(0);
+
+        function moveSlideTo(i){
+            currentSlide = i;
+            updateSlider();
+        }
+
+        function updateSlider(){
+            slides.forEach(slide => {
+                slide.style.display = "none"
+            })
+            slides[currentSlide].style.display = "block";
+
+            // const percentage = -(currentSlide * 100);
+            // imageContainer.style.transform = `translateX(${percentage}%)`;
+            dots.forEach(dot => {
+                dot.classList.remove("active");
+            })
+            dots[currentSlide].classList.add("active")
+        }
+        updateSlider();
+    </script>
+</body>
+</html>
+
